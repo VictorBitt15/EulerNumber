@@ -36,7 +36,7 @@ public class FixedThreadPool {
             }
             System.out.println("A quantidade de termos para ser calculada foi: "+qtd_tasks);
             System.out.println("O número de Euler com essa quantidade chegou a esse valor: "+valorFinal);
-            System.out.println("Foram usadas: "+NUM_THREADS+" threads");
+            System.out.println("Foram usadas: "+Thread.activeCount()+" threads");
         } catch (ExecutionException | InterruptedException e) {
             e.printStackTrace();
         }finally{
