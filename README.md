@@ -1,6 +1,6 @@
 ## Cálculo do número de Euler
 
-Esse projeto foi implmentado utilizando os conceitos de programação concorrente em Java.
+Esse projeto foi implementado utilizando os conceitos de programação concorrente em Java.
 
 ## Estrutura do projeto
 
